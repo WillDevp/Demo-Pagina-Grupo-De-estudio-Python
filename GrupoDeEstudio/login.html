@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="fondo-login">
+
+
+    <div id="form_wrapper">
+       
+        <div id="form_left">
+            <img src="images/estudio.jpg" alt="computer icon" class="estudio-img">
+        </div>
+        <div id="form_right">
+            <div class="dark-mode">
+                <p class="dark-mode-title">Dark Mode</p>
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label class="switch" for="checkbox"></label>
+            </div>
+            <h1 >Grupo de estudio</h1>
+            <div class="input_container">
+                <i class="fas fa-envelope"></i>
+                <input placeholder="Email" type="email" name="Email" id="field_email" class='input_field'>
+            </div>
+            <div class="input_container">
+                <i class="fas fa-lock"></i>
+                <input  placeholder="Contraseña" type="password" name="Password" id="field_password" class='input_field'>
+            </div>
+            <a type="submit" id='input_submit' class='input_field' href="perfil.html">Ingresar</a>
+            
+            <span>Recuperar <a href="#"> Email / Contraseña ?</a></span>
+            <span id='create_account'>
+                <a href="#">Registrarse ➡ </a>
+            </span>
+        </div>
+    </div>
+
+    <!-- <a href="index.html">ir a index</a> -->
+    
+    <script src="js/app.js"></script>
+
+</body>
+</html>
